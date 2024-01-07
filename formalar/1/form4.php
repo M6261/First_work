@@ -19,6 +19,7 @@
 
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
+    
     $number1  = $_POST['n1'];
     $number2  = $_POST['n2'];
     $radio  = $_POST['radio'];
